@@ -16,7 +16,7 @@ Claude Code **플러그인 + 로컬 마켓플레이스**. 새 Claude Code 작업
 ## 설치 (로컬)
 ```
 /plugin marketplace add ~/Documents/claude-workspace-architect
-/plugin install workspace-architect@taegon-local
+/plugin install workspace-architect@geonhui-local
 /plugin list                       # 로드 확인
 ```
 변경하며 개발할 땐:
@@ -34,7 +34,7 @@ claude --plugin-dir ~/Documents/claude-workspace-architect/plugins/workspace-arc
 ## 구조
 ```
 claude-workspace-architect/
-├── .claude-plugin/marketplace.json      ← 마켓플레이스 카탈로그 (name: taegon-local)
+├── .claude-plugin/marketplace.json      ← 마켓플레이스 카탈로그 (name: geonhui-local)
 └── plugins/workspace-architect/
     ├── .claude-plugin/plugin.json       ← 플러그인 매니페스트
     ├── skills/workspace-architect/SKILL.md
