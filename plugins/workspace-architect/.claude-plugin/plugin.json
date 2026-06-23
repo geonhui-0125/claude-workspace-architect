@@ -1,0 +1,8 @@
+{
+  "name": "workspace-architect",
+  "displayName": "Workspace Architect (Rosetta Stone)",
+  "version": "0.1.0",
+  "description": "Design, scaffold, and audit Claude Code working environments from one shared set of invariant patterns.",
+  "author": { "name": "taegoneom" },
+  "keywords": ["workspace", "scaffold", "claude-md", "rosetta-stone", "conventions", "audit"]
+}

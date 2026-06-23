@@ -1,0 +1,11 @@
+{
+  "name": "taegon-local",
+  "owner": { "name": "taegoneom" },
+  "plugins": [
+    {
+      "name": "workspace-architect",
+      "source": "./plugins/workspace-architect",
+      "description": "Rosetta Stone for Claude Code workspaces — a design-knowledge skill, a /new-workspace generator, a /audit-workspace linter + auditor subagent, and a CLAUDE.md guard hook."
+    }
+  ]
+}
