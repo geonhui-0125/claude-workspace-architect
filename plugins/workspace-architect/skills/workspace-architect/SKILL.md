@@ -82,5 +82,5 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 - **의지에 기댄 규칙** → 위험 환경은 `.claude/` hook. **과설계** → Tier‑1로 시작.
 
 ## 동작 방식
-- 생성: `/workspace-architect:new-workspace <목적/도메인 한 줄> [경로]` — 위 패턴대로 CLAUDE.md + 폴더 골격 생성.
+- 생성: `/workspace-architect:new-workspace <목적/도메인, 또는 스펙 @파일·URL·gh:owner/repo/path> [경로]` — 외부 스펙이면 먼저 받아 요구사항으로 삼고, 위 패턴대로 CLAUDE.md + 폴더 골격 생성.
 - 점검: `/workspace-architect:audit-workspace [경로]` — 결정적 린터 + `workspace-auditor` 서브에이전트로 체크리스트 감사.

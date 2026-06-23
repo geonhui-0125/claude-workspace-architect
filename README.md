@@ -28,6 +28,7 @@ claude --plugin-dir ~/Documents/claude-workspace-architect/plugins/workspace-arc
 
 ## 쓰는 법
 - 새 환경: `/workspace-architect:new-workspace "AI 리서치 노트 관리" ~/research` → 질문 몇 개 후 골격 생성.
+- 스펙 기반 생성: 목적 자리에 **로컬 `@파일`·raw URL·GitHub 파일(`gh:owner/repo/path[@ref]`)**을 주면 그 원문을 먼저 받아 요구사항으로 삼음. 예: `/workspace-architect:new-workspace gh:geonhui-0125/some-paper/spec.md ~/proj` (공개=WebFetch/curl, 비공개=그 머신 gh 인증 필요).
 - 점검: `/workspace-architect:audit-workspace ~/research` → 통과/경고/문제 + 수정안.
 - 설계만 상담: 그냥 "새 워크스페이스 어떻게 짤까" 물으면 스킬이 자동으로 패턴을 적용.
 
